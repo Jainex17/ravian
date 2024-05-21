@@ -3,16 +3,16 @@ import React from "react";
 
 const routeList = [
   {
-    href: "#About",
+    href: "#about",
     label: "About",
-  },
-  {
-    href: "#vision",
-    label: "Vision",
   },
   {
     href: "#Offerings",
     label: "Offerings",
+  },
+  {
+    href: "#vision",
+    label: "Vision",
   },
   {
     href: "#faqs",

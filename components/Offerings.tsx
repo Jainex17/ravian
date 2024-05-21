@@ -5,7 +5,7 @@ import {
 } from "./ui/card";
 
 export const Offerings = () => (
-  <div className="w-full pt-24 pb-32" id="Offerings">
+  <div className="w-full pb-32" id="Offerings">
     <div className="container mx-auto">
       <Card className="p-8 bg-background relative z-20">
         <div className="flex gap-2 flex-col items-start">

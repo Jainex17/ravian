@@ -7,7 +7,15 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Ravian AI",
-  description: "Ravian AI is a data science platform that helps you analyze your data and uncover valuable insights.",
+  description:
+    "Ravian AI is a data science platform that helps you analyze your data and uncover valuable insights.",
+  keywords: [
+    "ravian",
+    "ravian ai",
+    "data science",
+    "data analytics",
+    "machine learning",
+  ],
 };
 
 export default function RootLayout({
@@ -17,9 +25,15 @@ export default function RootLayout({
 }>) {
   return (
     <ThemeProvider>
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+      <html lang="en" className="dark">
+        <head>
+          <link
+            rel="icon"
+            href="./assets/logo.png"
+          />
+        </head>
+        <body className={inter.className}>{children}</body>
+      </html>
     </ThemeProvider>
   );
 }
