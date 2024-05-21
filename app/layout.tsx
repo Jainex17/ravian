@@ -29,7 +29,7 @@ export default function RootLayout({
         <head>
           <link
             rel="icon"
-            href="./assets/logo.png"
+            href="./assets/icon.ico"
           />
         </head>
         <body className={inter.className}>{children}</body>
