@@ -47,7 +47,7 @@ export const FAQs = () => (
               </span>
               </h4>
               <p className="text-lg max-w-xl lg:max-w-lg leading-relaxed tracking-tight text-muted-foreground text-left">
-              Get answers to your questions about Ravian AI's features, capabilities, and benefits.
+              Get answers to your questions about Ravian AI&apos;s features, capabilities, and benefits.
               </p>
             </div>
             <Link href={"mailto:care@ravian.ai"}>
