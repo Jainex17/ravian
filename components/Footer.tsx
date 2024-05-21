@@ -7,7 +7,7 @@ const routeList = [
     label: "About",
   },
   {
-    href: "#Vision",
+    href: "#vision",
     label: "Vision",
   },
   {
@@ -15,8 +15,8 @@ const routeList = [
     label: "Offerings",
   },
   {
-    href: "#Contact",
-    label: "Contact",
+    href: "#faqs",
+    label: "FAQs",
   },
 ];
 
